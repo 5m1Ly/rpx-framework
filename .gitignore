@@ -3,3 +3,5 @@ cache/*/
 config/*.cfg
 bkp-*.sql
 start-server.bat
+
+!.gitkeep

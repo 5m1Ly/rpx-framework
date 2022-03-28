@@ -15,7 +15,7 @@ ensure chat
 ensure px-base # framework core
 
 print ""
-print "^2starting the combat resources^7"
+print "^2starting the framework resources^7"
 print ""
 
 

@@ -4,4 +4,11 @@ add_ace group.admin command.quit deny # but don't allow quit
 add_principal identifier.fivem:1 group.admin # add the admin to the group
 
 # List With Actual Admins
-add_principal identifier.**your steam id** group.admin # Sm1Ly
+# add_principal identifier.ip:**your id** group.admin 			# your name
+# add_principal identifier.xbl:**your id** group.admin 			# your name
+# add_principal identifier.live:**your id** group.admin 		# your name
+# add_principal identifier.fivem:**your id** group.admin 		# your name
+# add_principal identifier.steam:**your id** group.admin 		# your name
+# add_principal identifier.discord:**your id** group.admin 		# your name
+# add_principal identifier.license:**your id** group.admin 		# your name
+# add_principal identifier.license2:**your id** group.admin 	# your name
