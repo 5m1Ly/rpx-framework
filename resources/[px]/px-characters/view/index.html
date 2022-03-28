@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://px-base/gui/css/px-master.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+	<body>
+		<div class="list-container" id="list-container">
+			<ul class="list">
+				<li class="list-item" id="character" cid="1">
+					<h2 class="character-name">hans pieter</h2>
+				</li>
+				<li class="list-item" id="character" cid="2">
+					<h2 class="character-name">hans pieter</h2>
+				</li>
+				<li class="list-item" id="character" cid="3">
+					<h2 class="character-name">hans pieter</h2>
+				</li>
+			</ul>
+			<div class="buttons">
+				<button class="btn btn-primary" id="play">play</button>
+				<button class="btn btn-warning" id="delete">delete</button>
+			</div>
+		</div>
+		<div class="form-container" id="form-container">
+			<form class="form s3">
+				<input type="text" name="fname" class="input input-primary" id="fname" placeholder="Voornaam">
+				<input type="text" name="lname" class="input input-primary" id="lname" placeholder="Achternaam">
+				<input type="text" name="natio" class="input input-primary" id="natio" placeholder="Nationaliteit">
+				<input type="date" name="birth" class="input input-primary" id="birth">
+				<select name="sex" class="input input-primary"  id="sex">
+					<option value="male">Man</option>
+					<option value="female">Vrouw</option>
+				</select>
+				<input type="submit" class="btn btn-primary" id="submit" value="karakter maken">
+			</form>
+		</div>
+    </body>
+    <script type="text/javascript" src="./js/app.js"></script>
+</html>

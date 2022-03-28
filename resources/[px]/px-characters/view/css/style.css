@@ -1,0 +1,145 @@
+
+/* buttons */
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html, body {
+	height: 100vh;
+	width: 100vw;
+	background: transparent;
+}
+
+.btn {
+	padding: .5vh;
+	font-size: 18px;
+	font-weight: 600;
+	outline: 0;
+	border-radius: 5px;
+}
+
+.btn-primary {
+	color: rgb(35, 140, 238);
+	background: transparent;
+	border: 2px solid rgb(35, 140, 238);
+}
+
+.btn-primary:hover {
+	color: rgb(53, 59, 72);
+	background: rgb(35, 140, 238);
+	border: 2px solid rgb(35, 140, 238);
+}
+
+.btn-warning {
+	color: rgb(219, 20, 60);
+	background: transparent;
+	border: 2px solid rgb(219, 20, 60);
+}
+
+.btn-warning:hover {
+	color: rgb(53, 59, 72);
+	background: rgb(219, 20, 60);
+	border: 2px solid rgb(219, 20, 60);
+}
+
+/* input fields */
+.input {
+	padding: .5vh;
+	font-size: 18px;
+	font-weight: 600;
+	outline: 0;
+	border-radius: 5px;
+}
+
+.input-primary {
+	color: rgb(35, 140, 238);
+	background: transparent;
+	border: 2px solid rgb(35, 140, 238);
+}
+
+/* forums */
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.form.s3>.input{
+	margin-bottom: 1vh;
+}
+
+.list-container {
+
+	position: absolute;
+	top: 3%;
+	left: 3%;
+
+	height: fit-content;
+	width: 15vw;
+	
+	padding: 1vh;
+	
+	background: rgba(177, 214, 253, 0.789);
+
+	border-radius: 5px;
+	border-left: 2px solid rgb(240, 23, 63);
+	border-right: 2px solid rgb(240, 23, 63);
+
+}
+
+.list {
+	
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	
+	height: fit-content;
+	width: 100%;
+
+}
+
+.list-item {
+
+	height: 3vh;
+	max-width: 100%;
+
+	padding: .5vh;
+	margin-bottom: 1vh;
+
+	text-align: center;
+
+	border-radius: 5px;
+	border-left: 2px solid rgb(8, 112, 209);
+	border-right: 2px solid rgb(8, 112, 209);
+
+	color: rgb(203, 239, 255);
+	background: rgba(7, 105, 170, 0.8);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.buttons {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.form-container {
+
+	position: absolute;
+	top: 3%;
+	right: 3%;
+
+	height: fit-content;
+	width: 15vw;
+	
+	padding: 1vh;
+	
+	background: rgba(177, 214, 253, 0.789);
+
+	border-radius: 5px;
+	border-left: 2px solid rgb(240, 23, 63);
+	border-right: 2px solid rgb(240, 23, 63);
+
+}

@@ -1,0 +1,69 @@
+/* buttons */
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+html, body {
+	height: 100vh;
+	width: 100vw;
+	background: transparent;
+}
+
+.btn {
+	padding: .5vh;
+	font-size: 18px;
+	font-weight: 600;
+	outline: 0;
+	border-radius: 5px;
+}
+
+.btn-primary {
+	color: rgb(35, 140, 238);
+	background: transparent;
+	border: 2px solid rgb(35, 140, 238);
+}
+
+.btn-primary:hover {
+	color: rgb(53, 59, 72);
+	background: rgb(35, 140, 238);
+	border: 2px solid rgb(35, 140, 238);
+}
+
+.btn-warning {
+	color: rgb(219, 20, 60);
+	background: transparent;
+	border: 2px solid rgb(219, 20, 60);
+}
+
+.btn-warning:hover {
+	color: rgb(53, 59, 72);
+	background: rgb(219, 20, 60);
+	border: 2px solid rgb(219, 20, 60);
+}
+
+/* input fields */
+.input {
+	padding: .5vh;
+	font-size: 18px;
+	font-weight: 600;
+	outline: 0;
+	border-radius: 5px;
+}
+
+.input-primary {
+	color: rgb(35, 140, 238);
+	background: transparent;
+	border: 2px solid rgb(35, 140, 238);
+}
+
+/* forums */
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.form.s3>.input{
+	margin-bottom: 1vh;
+}
