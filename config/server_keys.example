@@ -1,0 +1,5 @@
+# Server License Key (https://keymaster.fivem.net)
+set sv_licenseKey "**your key**"
+
+# Steam Web API Key (https://steamcommunity.com/dev/apikey)
+set steam_webApiKey "none"

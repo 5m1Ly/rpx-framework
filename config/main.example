@@ -1,0 +1,28 @@
+# Only change the IP if you're using a server with multiple network interfaces, otherwise change the port only.
+endpoint_add_tcp "0.0.0.0:30120"
+endpoint_add_udp "0.0.0.0:30120"
+
+# --> Server Database Loaded In External Config File
+exec config/server_db.cfg
+
+# --> 5 Pixel Resources Loaded In External Config File
+exec config/server_resources.cfg
+
+# --> Admin Groups And Admins Loaded In External Config File
+exec config/server_admin.cfg
+
+# --> General Server Info Loaded In External Config File
+exec config/server_info.cfg
+
+# --> Steam & Server Key Loaded In External Config File
+exec config/server_keys.cfg
+
+#########################################################
+#   _____   .______    __  ___   ___  ______  __		#
+#  | .___|  |   _  \  |  | \  \ /  / |   ___||  |		#
+#  | |__    |  |_)  | |  |  \  V  /  |  |__  |  |		#
+#  |___ \   |   ___/  |  |   >   <   |   __| |  |		#
+#   ___) |  |  |      |  |  /  .  \  |  |___ |  `---.	#
+#  |____/   |__|      |__| /__/ \__\ |______||______|	#
+#														#
+#########################################################

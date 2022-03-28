@@ -1,0 +1,7 @@
+# Permissions
+add_ace group.admin command allow # allow all commands
+add_ace group.admin command.quit deny # but don't allow quit
+add_principal identifier.fivem:1 group.admin # add the admin to the group
+
+# List With Actual Admins
+add_principal identifier.**your steam id** group.admin # Sm1Ly

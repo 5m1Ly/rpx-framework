@@ -1,0 +1,32 @@
+# -- Sets the game build of the server -- #
+set sv_enforceGameBuild 2372
+
+# -- Sets Server Listing -- #
+sv_master1 "" # Comment to enable
+
+# -- Sets Scripthook -- #
+sv_scriptHookAllowed 0 # Set 1 to enable
+
+# -- Sets server name -- #
+sv_hostname "px-framework ⚡ By 5 Pixel Development"
+
+# -- Sets server project name -- #
+sets sv_projectName "px-framework ⚡ By 5 Pixel Development"
+
+# -- Sets server project description -- #
+sets sv_projectDesc "Test server for the most awesome and optimized framework out there"
+
+# -- Sets server tags -- #
+sets tags "dev, px-framework"
+
+# -- Sets server language -- #
+sets locale "nl-NL"
+
+# -- Sets server icon -- #
+load_server_icon images/5pixel-logo.png # max size 96x96 has to be png file
+
+# -- OneSync -- #
+# set onesync on
+
+# -- Sets Player Slots -- # 
+sv_maxclients 8 # see https://fivem.net/server-hosting for limits

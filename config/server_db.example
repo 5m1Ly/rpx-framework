@@ -1,0 +1,21 @@
+# --> ghmattimysql configuration (https://ghmatti.github.io/ghmattimysql/setup/)
+
+# --> ghmattimysql config.json content
+# {
+#     "user": "root",
+#     "password": "password",
+#     "host": "localhost",
+#     "port": 3306,
+#     "database": "ghmattimysql"
+# }
+
+# --> Connection String
+set mysql_connection_string "mysql://root@localhost/px_beta"
+
+# --> Sets Query Log (works with config.json file)
+
+# "Console"        > Console Only (Local) 
+# "File"           > File Only (Live Server) 
+# "FileAndConsole" > File & Console (Development)
+
+# set mysql_debug "Console" 

@@ -1,0 +1,30 @@
+
+# ensure sessionmanager automaticly started
+
+print ""
+print "^2starting fivem resources^7"
+print ""
+
+## CORE COMPONENTS ##
+ensure monitor
+ensure mapmanager
+ensure spawnmanager
+ensure basic-gamemode
+ensure chat
+
+ensure px-base # framework core
+
+print ""
+print "^2starting the combat resources^7"
+print ""
+
+
+## STANDALONE ##
+ensure [standalone]
+
+## FRAMEWORK RESOURCES ##
+ensure [px]
+
+print ""
+print "^2all resources are running^7"
+print ""
