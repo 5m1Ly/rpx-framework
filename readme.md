@@ -1,7 +1,7 @@
-# FiveM Framework (5 pixel rp)
+# RPX Framework
 <strong>!! development of this framework is dicontinued !!</strong>
 
-This framework is far from done, if you would want to use this you need to do a couple of things to set it up.
+The framework is far from done, if you would want to use this you need to do a couple of things to set it up.
 
 ## Installation
 1. Download and place the latest server artifact within the the artifact folder
